@@ -1,0 +1,388 @@
+body {
+    font-family: Arial;
+}
+
+#start {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+}
+
+#stext {
+    display: flex;
+    width: 50%;
+    margin-left: 10%;
+}
+
+#stext p {
+    color: white;
+    margin: 1%;
+}
+
+#start i {
+    color: white;
+}
+
+#font i {
+    margin: 1%;
+}
+
+#font {
+    width: 40%;
+    margin-left: 30%;
+    /* margin-top: 0.5%; */
+}
+
+#ok {
+    display: flex;
+    width: 100%;
+}
+
+#ok i {
+    margin-top: 1%;
+    margin: 2%;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    width: 100%;
+}
+
+#coname h1 {
+    color: white;
+}
+
+#coname {
+    width: 30%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+    margin-top: 9%;
+}
+
+#nav a:hover {
+    color: orangered;
+    transition: 1s;
+}
+
+#nav {
+    margin-left: 10%;
+    display: flex;
+    width: 40%;
+}
+
+#na {
+    display: flex;
+    width: 100%;
+}
+
+#na button {
+    width: 20%;
+    height: 20%;
+    background-color: orangered;
+    border: none;
+    margin-top: 8.7%;
+    margin-left: 2%;
+    color: white;
+}
+
+#na button:hover {
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#banner {
+    background-image: url(../img/no1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#bannertext {
+    color: white;
+    width: 50%;
+    padding: 20%;
+}
+
+#bannertext h3 {
+    font-size: 300%;
+    margin-top: 5%;
+}
+
+#bannertext h1 {
+    font-size: 500%;
+    margin-top: 5%;
+}
+
+#middlebanner {
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+#bannertext button {
+    background-color: orangered;
+    padding: 2%;
+    color: white;
+    border: none;
+    transition: transform 4s;
+}
+
+#bannertext button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+#aboutus {
+    width: 100%;
+    display: flex;
+    margin: 5% 0 5% 0;
+}
+
+#abtdiv {
+    width: 30%;
+    margin-left: 10%;
+
+}
+
+#aboutimg {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+#seconddiv {
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+}
+
+#fir {
+    background-color: white;
+    width: 80%;
+    padding: 10%;
+}
+
+#firstimgdiv {
+    width: 25%;
+    margin: 2%;
+    margin-left: 5%;
+    box-shadow: 5px 5px 9px 5px gray;
+}
+
+#dropdiv {
+    display: none;
+    position: relative;
+}
+
+#dropmain:hover #dropdiv {
+    display: block;
+    transition: 1s;
+    position: absolute;
+}
+
+#dropmain {
+    display: inline;
+    margin-top: 9%;
+}
+
+#dropdiv a {
+    display: block;
+}
+
+#firstimgdiv img {
+    width: 100%;
+    margin: auto;
+}
+
+#divofdiv {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+#ser {
+    margin-left: 9%;
+    padding-top: 3%;
+}
+
+#thirddiv {
+    display: flex;
+    margin-left: 5%;
+}
+
+#gallery {
+    margin-top: 7%;
+}
+
+#gallerydiv {
+    display: flex;
+}
+
+#gallerydiv img {
+    width: 25%;
+}
+
+#gallery h1 {
+    text-align: center;
+}
+
+#gallery button {
+    padding: 1%;
+    margin-top: 4%;
+    text-align: center;
+    background-color: rgb(255, 99, 43);
+    width: 8%;
+    margin-left: 45%;
+    color: white;
+    border: none;
+}
+
+#gallery button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#howwediv {
+    display: flex;
+    margin: 10%;
+}
+
+#howwetext {
+    width: 40%;
+    margin-left: 15%;
+}
+
+#register {
+    background-image: url(../img/no9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#regcolor {
+    background-color: rgba(255, 68, 0, 0.733);
+}
+
+#formdiv h1 {
+    color: white;
+}
+
+#registerdiv {
+    display: flex;
+    padding: 3%;
+}
+
+#formdiv {
+    margin-left: 10%;
+    width: 50%;
+}
+
+
+#formimg {
+    width: 40%;
+    margin-top: 4%;
+}
+
+#formdiv input {
+    width: 92%;
+    padding: 5%;
+    margin: 2%;
+}
+
+#formdiv button {
+    padding: 5%;
+    background-color: white;
+    border: none;
+    margin: 2%;
+    cursor: pointer;
+}
+
+#clienttext {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#arrowdiv {
+    display: flex;
+}
+
+#whitebak {
+    background-color: aliceblue;
+    width: 40%;
+    margin: auto;
+}
+
+#clientt {
+    margin-top: 7%;
+}
+
+#whitebak i {
+    color: yellow;
+    margin-top: 5%;
+}
+
+#whitebak p {
+    padding: 5%;
+}
+
+#sta {
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+#fimg {
+    display: flex;
+    margin: 2%;
+}
+
+#fimg img {
+    width: 40%;
+    border-radius: 60px;
+}
+
+#fimg h1 {
+    font-size: 150%;
+}
+
+#fimg1 {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: -14%;
+}
+
+#latestblog {
+    margin-top: 7%;
+}
+
+#latestblog h1 {
+    margin-left: 9%;
+}
+
+#lastpart {
+    background-color: #ccc;
+}
+
+#lastpart1 {
+    display: flex;
+}
+
+#last {
+    width: 30%;
+    margin: 2% auto;
+    margin-left: 9%;
+}
+
+footer {
+    padding: 1%;
+    text-align: center;
+}
